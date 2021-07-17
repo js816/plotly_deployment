@@ -118,7 +118,8 @@ function buildCharts(sample) {
       mode: 'markers',
       marker: {
         size: resultSampleValues,
-        color: resultOTUIDs
+        color: resultOTUIDs,
+        colorscale: 'Portland'
         // @TODO - Adjust colors and colorscale
         //colorscale: resultOTUIDs
       }
@@ -172,7 +173,7 @@ function buildCharts(sample) {
       margin: {
         l: 50,
         r: 50,
-        b: 200,
+        b: 50,
         t: 50,
         pad: 4
       }  
